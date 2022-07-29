@@ -36,7 +36,10 @@
     "bootstrap": "^5.2.0-beta1",
     "@types/bootstrap": "^5.1.12",
     "bootstrap-icons": "^1.9.0",
-    "tslib": "^2.4.0"
+    "tslib": "^2.4.0",
+    "photo-sphere-viewer": "^4.6.4",
+    "three": "^0.143.0",
+    "uevent": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
