@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "longitude": 111.950788,
+    "latitude": 21.827869,
+    "altitude": 29.250368,
+    "height": 300.0
+  },
+  "loadingImg": "assets/images/psv-logo.gif",
+  "adapter": "CubemapAdapter",
+  "caption": "阳江漠阳江",
+  "panorama": {
+    "left":   "assets/images/阳江漠阳江/pano_l.jpg",
+    "front":  "assets/images/阳江漠阳江/pano_f.jpg",
+    "right":  "assets/images/阳江漠阳江/pano_r.jpg",
+    "back":   "assets/images/阳江漠阳江/pano_b.jpg",
+    "top":    "assets/images/阳江漠阳江/pano_u.jpg",
+    "bottom": "assets/images/阳江漠阳江/pano_d.jpg"
+  }
+}

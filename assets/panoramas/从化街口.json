@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "longitude": 113.571740,
+    "latitude": 23.549207,
+    "altitude": 62.811883,
+    "height": 300.0
+  },
+  "loadingImg": "assets/images/psv-logo.gif",
+  "caption": "从化街口",
+  "adapter": "CubemapAdapter",
+  "panorama": {
+    "left":   "assets/images/从化街口/pano_l.jpg",
+    "front":  "assets/images/从化街口/pano_f.jpg",
+    "right":  "assets/images/从化街口/pano_r.jpg",
+    "back":   "assets/images/从化街口/pano_b.jpg",
+    "top":    "assets/images/从化街口/pano_u.jpg",
+    "bottom": "assets/images/从化街口/pano_d.jpg"
+  }
+}

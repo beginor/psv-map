@@ -22,7 +22,8 @@ export default {
   watch: { clearScreen: false },
   treeshake: production,
   external: [
-    'tslib', 'bootstrap', '@popperjs/core'
+    'tslib', 'bootstrap', '@popperjs/core',
+    /photo-sphere-viewer/, 'uevent', 'three'
   ],
   plugins: [
     esbuild({ tsconfig: 'tsconfig.json', sourceMap: !production, minify: production, legalComments: 'none' }),

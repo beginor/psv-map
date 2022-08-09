@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hello, Rollup!</title>
+  <title>Photo Sphere Viewer</title>
   <link rel="stylesheet" href="./dist/styles/main.css">
+  <link rel="stylesheet" href="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.css">
   <link rel="stylesheet" href="./dist/app.css">
 </head>
 <body>
@@ -24,7 +25,7 @@
     { type: 'importmap',
       src: [
         `http://localhost/dist/importmap.${isProd()?'prod.json':'json'}`,
-        // `./importmap.${isProd()?'prod.json':'json'}`
+        `./importmap.${isProd()?'prod.json':'json'}`
       ]
     },
     { type: 'module', src: './dist/main.js' }

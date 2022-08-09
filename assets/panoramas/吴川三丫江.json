@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "longitude": 110.746342,
+    "latitude": 21.592820,
+    "altitude": 28.231371,
+    "height": 300.0
+  },
+  "loadingImg": "assets/images/psv-logo.gif",
+  "adapter": "CubemapAdapter",
+  "caption": "吴川三丫江",
+  "panorama": {
+    "left":   "assets/images/吴川三丫江/pano_l.jpg",
+    "front":  "assets/images/吴川三丫江/pano_f.jpg",
+    "right":  "assets/images/吴川三丫江/pano_r.jpg",
+    "back":   "assets/images/吴川三丫江/pano_b.jpg",
+    "top":    "assets/images/吴川三丫江/pano_u.jpg",
+    "bottom": "assets/images/吴川三丫江/pano_d.jpg"
+  }
+}

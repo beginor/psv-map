@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "photo-sphere-viewer": "/dist/libs/photo-sphere-viewer/photo-sphere-viewer.js",
+    "photo-sphere-viewer/dist/adapters/cubemap": "/dist/libs/photo-sphere-viewer/adapters/cubemap.js",
+    "three": "/node_modules/three/build/three.module.js",
+    "uevent": "/dist/libs/uevent/browser.js"
+  }
+}
