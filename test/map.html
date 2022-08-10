@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapbox</title>
+  <link rel="stylesheet" href="../dist/app.css">
+  <link rel="stylesheet" href="http://localhost/dist/libs/mapbox-gl/mapbox-gl.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="http://localhost/dist/loader.js"></script>
+  <script>
+    loadScripts([
+      { type: 'importmap',
+        src: [
+          `http://localhost/dist/importmap.${isProd()?'prod.json':'json'}`,
+          `../importmap.json`
+        ]
+      },
+      { type: 'module', src: './map.js' }
+    ]).catch(ex => console.error(ex));
+    </script>
+</body>
+</html>
